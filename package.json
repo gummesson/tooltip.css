@@ -1,0 +1,34 @@
+{
+  "name": "tooltip.css",
+  "version": "1.0.0",
+  "description": "A simple CSS tooltip.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/tooltip.css.git"
+  },
+  "keywords": [
+    "css",
+    "hint",
+    "hints",
+    "tooltip",
+    "tooltips"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/tooltip.css/issues"
+  },
+  "homepage": "https://github.com/gummesson/tooltip.css",
+  "dependencies": {},
+  "devDependencies": {
+    "cssnext": "^1.4.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.3.3"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "npm run build:clean && npm run build:css",
+    "build:clean": "rimraf dist && mkdirp dist",
+    "build:css": "cssnext --no-rem index.css > dist/index.css"
+  }
+}
