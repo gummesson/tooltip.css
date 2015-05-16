@@ -50,17 +50,6 @@
   visibility: visible;
 }
 
-.tooltip--base::before {
-  background-color: var(--tt-colorBackground);
-  color: var(--tt-colorForeground);
-  border-radius: var(--tt-borderRadius);
-}
-
-.tooltip--base:hover::before,
-.tooltip--base:hover::after {
-  opacity: var(--tt-opacity);
-}
-
 .tooltip--top::before,
 .tooltip--top::after {
   top: auto;
@@ -127,4 +116,15 @@
 
 .tooltip--left::after {
   border-left-color: var(--tt-colorBackground);
+}
+
+.tooltip--base::before {
+  background-color: var(--tt-colorBackground);
+  color: var(--tt-colorForeground);
+  border-radius: var(--tt-borderRadius);
+}
+
+.tooltip--base:hover::before,
+.tooltip--base:hover::after {
+  opacity: var(--tt-opacity);
 }
