@@ -39,7 +39,6 @@
 .tooltip::before {
   padding: var(--tt-paddingSize);
   font-size: var(--tt-fontSize);
-  border-radius: var(--tt-borderRadius);
   content: attr(data-tooltip);
 }
 
@@ -51,12 +50,17 @@
 .tooltip:hover::before,
 .tooltip:hover::after {
   visibility: visible;
-  opacity: var(--tt-opacity);
 }
 
 .tooltip--base::before {
   background-color: var(--tt-colorBackground);
   color: var(--tt-colorForeground);
+  border-radius: var(--tt-borderRadius);
+}
+
+.tooltip--base:hover::before,
+.tooltip--base:hover::after {
+  opacity: var(--tt-opacity);
 }
 
 .tooltip--top::before,
