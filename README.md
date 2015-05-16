@@ -21,11 +21,11 @@ npm install tooltip.css
 :root {
   --tt-fontSize:        1rem;
   --tt-paddingSize:     calc(var(--tt-fontSize) / 2);
-  --tt-borderRadius:    0;
-  --tt-opacity:         1;
   --tt-transition:      opacity 0.2s ease-in;
   --tt-colorBackground: #111;
   --tt-colorForeground: #ddd;
+  --tt-borderRadius:    0;
+  --tt-opacity:         1;
 }
 ```
 
