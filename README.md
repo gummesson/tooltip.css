@@ -31,7 +31,7 @@ npm install tooltip.css
 
 ``` html
 <p>
-  This is a <span class="tooltip tooltip--base tooltip--top" data-tooltip="This is a tooltip">sentence</span>.
+  This is a <span class="tooltip tooltip--top tooltip__skin tooltip__skin--top" data-tooltip="This is a tooltip">sentence</span>.
 </p>
 ```
 
