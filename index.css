@@ -63,10 +63,6 @@
   margin: 0 0 1rem 0;
 }
 
-.tooltip--top::after {
-  border-top-color: var(--tt-colorBackground);
-}
-
 .tooltip--bottom::before,
 .tooltip--bottom::after {
   top: 100%;
@@ -78,10 +74,6 @@
 
 .tooltip--bottom::before {
   margin: 1rem 0 0 0;
-}
-
-.tooltip--bottom::after {
-  border-bottom-color: var(--tt-colorBackground);
 }
 
 .tooltip--right::before,
@@ -97,10 +89,6 @@
   margin: 0 0 0 1rem;
 }
 
-.tooltip--right::after {
-  border-right-color: var(--tt-colorBackground);
-}
-
 .tooltip--left::before,
 .tooltip--left::after {
   top: auto;
@@ -114,10 +102,6 @@
   margin: 0 1rem 0 0;
 }
 
-.tooltip--left::after {
-  border-left-color: var(--tt-colorBackground);
-}
-
 .tooltip--base::before {
   background-color: var(--tt-colorBackground);
   color: var(--tt-colorForeground);
@@ -127,4 +111,20 @@
 .tooltip--base:hover::before,
 .tooltip--base:hover::after {
   opacity: var(--tt-opacity);
+}
+
+.tooltip--base--top::after {
+  border-top-color: var(--tt-colorBackground);
+}
+
+.tooltip--base--bottom::after {
+  border-bottom-color: var(--tt-colorBackground);
+}
+
+.tooltip--base--right::after {
+  border-right-color: var(--tt-colorBackground);
+}
+
+.tooltip--base--left::after {
+  border-left-color: var(--tt-colorBackground);
 }
