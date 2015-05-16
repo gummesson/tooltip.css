@@ -19,8 +19,6 @@ npm install tooltip.css
 @import "tooltip.css";
 
 :root {
-  --tt-fontSize:        1rem;
-  --tt-paddingSize:     calc(var(--tt-fontSize) / 2);
   --tt-transition:      opacity 0.2s ease-in;
   --tt-colorBackground: #111;
   --tt-colorForeground: #ddd;
