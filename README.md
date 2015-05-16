@@ -35,6 +35,16 @@ npm install tooltip.css
 </p>
 ```
 
+### Extending
+
+You can use a modifier class to adjust properties:
+
+``` css
+.tooltip--small::before {
+  font-size: 0.75rem;
+}
+```
+
 [npm-img]: https://img.shields.io/npm/v/tooltip.css.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/tooltip.css
 [license-img]: http://img.shields.io/npm/l/tooltip.css.svg?style=flat-square
