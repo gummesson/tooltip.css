@@ -37,7 +37,7 @@ npm install tooltip.css
 
 ### Extending
 
-You can use a modifier class to adjust properties:
+You can use modifier classes to adjust properties:
 
 ``` css
 .tooltip--small::before {
