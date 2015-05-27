@@ -21,9 +21,9 @@
   "homepage": "https://github.com/gummesson/tooltip.css",
   "dependencies": {},
   "devDependencies": {
-    "cssnext": "^1.4.0",
+    "cssnext": "^1.5.1",
     "mkdirp": "^0.5.1",
-    "rimraf": "^2.3.3"
+    "rimraf": "^2.3.4"
   },
   "scripts": {
     "start": "npm run build",
